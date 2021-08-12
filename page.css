@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+body {
+    margin: auto; /* I know, its strange to center the body */
+    max-width: 900px;
+    color: #FFFFFF;
+    background: #000;
+    position: relative;
+}
+main {
+    padding: 15px;
+}
+#stateInput {
+    margin: 10px 0;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 12px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #CA3216;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #666666;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/search--v2.png');
+    background-position: 12px 11px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+#stateList {
+    margin: 20px 0;
+    list-style-type: none;
+}
+#stateList li a {
+    margin-top: -1px;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #CA3216;
+    color: #FFFFFF;
+    background: #000000;
+}
+#stateList li a:hover:not(.header) {
+    background-color: #CA3216;
+}
+#refer {
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    position: absolute;
+    color: #666666;
+}
